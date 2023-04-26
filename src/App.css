@@ -1,0 +1,57 @@
+.cardWrapper {
+  margin: 22px;
+}
+table,
+td,
+th {
+  border: 1px solid #5f5b5b;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+th,
+td {
+  padding: 15px;
+}
+tr:hover {
+  background-color: #d7d8d8;
+}
+#register {
+  width: 300px;
+  border: 1px solid #bfbfc2;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #a19999;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 50px auto;
+}
+
+form label,
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #bdc7d8;
+}
+.button {
+  background-color: #2b9bc0;
+  border-color: #aab6e9;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+  width: 90px;
+}
+.user-list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
